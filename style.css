@@ -42,6 +42,16 @@
     z-index: 2;
 }
 
+/*делаю кнопку пагинации менее яркой? смещаю блок чуть ниже*/
+
+.swiper-pagination-bullet-active {
+    background: rgba(255,255,255,.6);
+}
+
+.swiper-pagination--hero {
+    bottom: 23px !important;
+}
+
 @media (max-width: 991.98px) {
     .catalog {
         flex-direction: unset;
